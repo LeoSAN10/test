@@ -1,0 +1,33 @@
+.profile{
+    height: 100vh;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    font-size: 25px;
+}
+
+.user-info-title{
+    width: 40%;
+    margin-bottom: 40px;
+}
+
+.user-info-name{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+}
+
+.user-info-password{
+    margin-top: 40px;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+}

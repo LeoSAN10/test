@@ -1,0 +1,21 @@
+.main{
+    background-image: url('../../assets/image-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-title{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+.main-text{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 0 400px;
+}

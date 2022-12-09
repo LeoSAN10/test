@@ -1,0 +1,22 @@
+.info{
+    height: 100%;
+    background-image: url('../../assets/image-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-container{
+    text-align: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.info-text{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 0 400px;
+}

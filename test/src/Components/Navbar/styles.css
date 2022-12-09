@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: black;
+    border-bottom: 1px solid rgb(168, 168, 168);
+}
+
+li{
+    font-size: 20px;
+    margin: 0 60px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+li a:hover{
+    color: rgb(206, 206, 206);
+}
+
+a:visited {
+    color: white; 
+}
+a:active {
+    color: white;
+}
+
+.username{
+    color: white;
+    margin-right: 20px;
+}
+
+.list{
+    display: flex;
+}
