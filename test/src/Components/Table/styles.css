@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+    width: 120%;
+    margin: 2rem auto;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr{
+    width: 500px;
+    height: 50px;
+}
+
+thead th{
+    background-color: black;
+    color: white;
+    top: 0;
+    position: sticky;
+    z-index: 9999;
+}
+
+td:first-child{
+    background-color: black;
+    color: white;
+    left: 0;
+    position: sticky;
+    z-index: 0;
+}

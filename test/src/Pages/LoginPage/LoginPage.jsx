@@ -39,7 +39,7 @@ export const LoginPage = () => {
       <div className="login-form">
         <form onSubmit={handleSubmit}>
           <div className="input-container">
-          <label>Username</label>
+            <label>Username</label>
             <input
               value={username}
               onChange={(e) => setUsername(e.target.value)}
@@ -61,8 +61,9 @@ export const LoginPage = () => {
             />
           </div>
           <p className="error-message">{error}</p>
-          <button type="submit" className="submit_btn">Log In</button>
-          
+          <button type="submit" className="submit_btn">
+            Log In
+          </button>
         </form>
       </div>
     </div>

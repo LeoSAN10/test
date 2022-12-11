@@ -5,6 +5,7 @@ import { LoginPage } from "./Pages/LoginPage/LoginPage";
 import { ProfilePage } from "./Pages/ProfilePage/ProfilePage";
 import "./App.css";
 import { InfoPage } from "./Pages/InfoPage/InfoPage";
+import TablePage from "./Pages/TablePage/TablePage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path={ROUTES.LOGIN_PAGE} element={<LoginPage />} />
         <Route path={ROUTES.INFO_PAGE} element={<InfoPage />} />
         <Route path={ROUTES.PROFILE_PAGE} element={<ProfilePage />} />
+        <Route path={ROUTES.TABLE_PAGE} element={<TablePage />} />
       </Routes>
     </div>
   );

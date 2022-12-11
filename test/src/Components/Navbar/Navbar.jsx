@@ -12,7 +12,7 @@ export const Navbar = () => {
     if (user) {
       setUsername(user.username);
     }
-  }, []);
+  }, [user]);
 
   return (
     <div className="navbar">
@@ -29,6 +29,9 @@ export const Navbar = () => {
         <li>
           <Link to="/info">Info</Link>
         </li>
+        <li>
+          <Link to="/table">Table</Link>
+        </li>
       </div>
 
       <div className="username">{username}</div>
@@ -36,4 +39,4 @@ export const Navbar = () => {
   );
 };
 
-export default Navbar
+export default Navbar;
